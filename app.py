@@ -3,7 +3,6 @@ import json
 from flask import Flask, Response
 
 from logic import recommend
-from pyapollo import ApolloClient
 
 app = Flask(__name__)
 
